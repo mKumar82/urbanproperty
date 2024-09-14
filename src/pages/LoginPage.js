@@ -37,7 +37,7 @@ function LoginPage({ onLogin }) {
       <h2>Login</h2>
       <form onSubmit={handleSubmit} className="login-form">
         <div className="form-group">
-          <label htmlFor="email">Email</label>
+          <label htmlFor="email">    Email  : </label>
           <input
             type="email"
             id="email"
@@ -47,7 +47,7 @@ function LoginPage({ onLogin }) {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="password">Password</label>
+          <label htmlFor="password">Password : </label>
           <input
             type="password"
             id="password"
@@ -57,7 +57,7 @@ function LoginPage({ onLogin }) {
           />
         </div>
         {error && <p className="error-message">{error}</p>}
-        <button type="submit">Login</button>
+        <button type="submit">     Login</button>
       </form>
     </div>
   );
